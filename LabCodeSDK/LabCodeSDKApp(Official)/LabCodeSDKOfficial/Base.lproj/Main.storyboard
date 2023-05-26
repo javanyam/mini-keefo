@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--LabCodeSDKDemo-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ScanViewController" customModule="SnapTagSDKSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="P7x-Gr-u12">
+                                <rect key="frame" x="240" y="64" width="120" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xR4-ax-84T">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" image="torch_on_icon">
+                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="25"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="tapTorchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VWQ-p5-PaW"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="99r-tx-6zM">
+                                        <rect key="frame" x="70" y="0.0" width="50" height="50"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" image="zoom_on_icon">
+                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="30"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="tapZoomButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WkY-qV-RCt"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="JT0-XY-Dti"/>
+                                    <constraint firstAttribute="height" constant="50" id="gFB-og-wgh"/>
+                                </constraints>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="focus_on_icon" translatesAutoresizingMaskIntoConstraints="NO" id="BJe-xt-J0t">
+                                <rect key="frame" x="275" y="275" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="CKN-uW-tjv"/>
+                                    <constraint firstAttribute="width" constant="50" id="ZmQ-EV-yqt"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="BJe-xt-J0t" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AeN-mC-F98"/>
+                            <constraint firstItem="P7x-Gr-u12" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="a7E-x9-J2m"/>
+                            <constraint firstItem="BJe-xt-J0t" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="csE-g0-U0t"/>
+                            <constraint firstItem="P7x-Gr-u12" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="64" id="zXZ-hv-rQE"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="LabCodeSDKDemo" id="WBk-h8-NdP"/>
+                    <connections>
+                        <outlet property="torchButton" destination="xR4-ax-84T" id="xMG-cd-cEv"/>
+                        <outlet property="zoomButton" destination="99r-tx-6zM" id="7Db-2f-pXW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1957.9710144927537" y="91.741071428571431"/>
+        </scene>
+        <!--Result-->
+        <scene sceneID="Hot-xI-ffb">
+            <objects>
+                <viewController storyboardIdentifier="ResultViewController" id="nuD-aK-iiA" customClass="ResultViewController" customModule="SnapTagSDKSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bGt-XU-7lW">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="snaptag_logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="RpC-mt-kmF">
+                                <rect key="frame" x="0.0" y="90" width="600" height="510"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vox-dD-s36">
+                                <rect key="frame" x="20" y="20" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="eka-5z-w8j"/>
+                                    <constraint firstAttribute="width" constant="50" id="kAL-zy-oGQ"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="more_before_button">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="25"/>
+                                </state>
+                                <connections>
+                                    <action selector="tapBackButton:" destination="nuD-aK-iiA" eventType="touchUpInside" id="ZTd-5y-8Rk"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="PZS-Eb-CRZ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="RpC-mt-kmF" firstAttribute="leading" secondItem="PZS-Eb-CRZ" secondAttribute="leading" id="1T4-8D-PYL"/>
+                            <constraint firstItem="RpC-mt-kmF" firstAttribute="trailing" secondItem="PZS-Eb-CRZ" secondAttribute="trailing" id="46t-N2-ixs"/>
+                            <constraint firstAttribute="bottom" secondItem="RpC-mt-kmF" secondAttribute="bottom" id="iPw-8L-i00"/>
+                            <constraint firstItem="RpC-mt-kmF" firstAttribute="top" secondItem="vox-dD-s36" secondAttribute="bottom" constant="20" id="of3-ur-BXW"/>
+                            <constraint firstItem="vox-dD-s36" firstAttribute="top" secondItem="PZS-Eb-CRZ" secondAttribute="top" constant="20" id="rbd-Dx-0By"/>
+                            <constraint firstItem="vox-dD-s36" firstAttribute="leading" secondItem="PZS-Eb-CRZ" secondAttribute="leading" constant="20" id="wug-IF-gH5"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Result" id="laq-6b-BSn"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0s6-Pc-8C6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2734.7826086956525" y="91.741071428571431"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="focus_on_icon" width="50" height="50"/>
+        <image name="more_before_button" width="11" height="21"/>
+        <image name="snaptag_logo.png" width="406.07998657226562" height="252"/>
+        <image name="torch_on_icon" width="48" height="48"/>
+        <image name="zoom_on_icon" width="48" height="48"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

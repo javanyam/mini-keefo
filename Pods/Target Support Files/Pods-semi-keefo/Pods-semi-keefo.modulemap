@@ -1,0 +1,6 @@
+framework module Pods_semi_keefo {
+  umbrella header "Pods-semi-keefo-umbrella.h"
+
+  export *
+  module * { export * }
+}

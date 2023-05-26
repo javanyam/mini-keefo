@@ -1,0 +1,11 @@
+framework module LabCodeSDK {
+  umbrella header "LabCodeSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module LabCodeSDK.Swift {
+  header "LabCodeSDK-Swift.h"
+  requires objc
+}

@@ -1,0 +1,5533 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LabCodeManager",
+        "printedName": "LabCodeManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LabCodeManager",
+                "printedName": "LabCodeSDK.LabCodeManager",
+                "usr": "s:10LabCodeSDK0aB7ManagerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10LabCodeSDK0aB7ManagerC6sharedACvpZ",
+            "mangledName": "$s10LabCodeSDK0aB7ManagerC6sharedACvpZ",
+            "moduleName": "LabCodeSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LabCodeManager",
+                    "printedName": "LabCodeSDK.LabCodeManager",
+                    "usr": "s:10LabCodeSDK0aB7ManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10LabCodeSDK0aB7ManagerC6sharedACvgZ",
+                "mangledName": "$s10LabCodeSDK0aB7ManagerC6sharedACvgZ",
+                "moduleName": "LabCodeSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "applyEmbeddingLabCode",
+            "printedName": "applyEmbeddingLabCode(uiImage:codeArray:scale:alpha:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.Int]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LabCodeSDK0aB7ManagerC014applyEmbeddingaB07uiImage9codeArray5scale5alphaSo7UIImageCSgAJ_SaySiGs5Int32VANtF",
+            "mangledName": "$s10LabCodeSDK0aB7ManagerC014applyEmbeddingaB07uiImage9codeArray5scale5alphaSo7UIImageCSgAJ_SaySiGs5Int32VANtF",
+            "moduleName": "LabCodeSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "embedImage",
+            "printedName": "embedImage(inputImage:codeArray:scale:alpha:seed:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.Int]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LabCodeSDK0aB7ManagerC10embedImage05inputF09codeArray5scale5alpha4seedSo7UIImageCSgAK_SaySiGs5Int32VA2OtF",
+            "mangledName": "$s10LabCodeSDK0aB7ManagerC10embedImage05inputF09codeArray5scale5alpha4seedSo7UIImageCSgAK_SaySiGs5Int32VA2OtF",
+            "moduleName": "LabCodeSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10LabCodeSDK0aB7ManagerC",
+        "mangledName": "$s10LabCodeSDK0aB7ManagerC",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LoginManager",
+        "printedName": "LoginManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LoginManager",
+                "printedName": "LabCodeSDK.LoginManager",
+                "usr": "s:10LabCodeSDK12LoginManagerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10LabCodeSDK12LoginManagerC6sharedACvpZ",
+            "mangledName": "$s10LabCodeSDK12LoginManagerC6sharedACvpZ",
+            "moduleName": "LabCodeSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LoginManager",
+                    "printedName": "LabCodeSDK.LoginManager",
+                    "usr": "s:10LabCodeSDK12LoginManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10LabCodeSDK12LoginManagerC6sharedACvgZ",
+                "mangledName": "$s10LabCodeSDK12LoginManagerC6sharedACvgZ",
+                "moduleName": "LabCodeSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "labcurity",
+            "printedName": "labcurity(apiKey:apiSecret:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LabCodeSDK.ResultType) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ResultType",
+                    "printedName": "LabCodeSDK.ResultType",
+                    "usr": "s:10LabCodeSDK10ResultTypeO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LabCodeSDK12LoginManagerC9labcurity6apiKey0G6Secret10completionySS_SSyAA10ResultTypeOctF",
+            "mangledName": "$s10LabCodeSDK12LoginManagerC9labcurity6apiKey0G6Secret10completionySS_SSyAA10ResultTypeOctF",
+            "moduleName": "LabCodeSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "labcode",
+            "printedName": "labcode(apiKey:apiSecret:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LabCodeSDK.ResultType) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ResultType",
+                    "printedName": "LabCodeSDK.ResultType",
+                    "usr": "s:10LabCodeSDK10ResultTypeO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LabCodeSDK12LoginManagerC7labcode6apiKey0G6Secret10completionySS_SSyAA10ResultTypeOctF",
+            "mangledName": "$s10LabCodeSDK12LoginManagerC7labcode6apiKey0G6Secret10completionySS_SSyAA10ResultTypeOctF",
+            "moduleName": "LabCodeSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10LabCodeSDK12LoginManagerC",
+        "mangledName": "$s10LabCodeSDK12LoginManagerC",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LogManager",
+        "printedName": "LogManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LogManager",
+                "printedName": "LabCodeSDK.LogManager",
+                "usr": "s:10LabCodeSDK10LogManagerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10LabCodeSDK10LogManagerC6sharedACvpZ",
+            "mangledName": "$s10LabCodeSDK10LogManagerC6sharedACvpZ",
+            "moduleName": "LabCodeSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogManager",
+                    "printedName": "LabCodeSDK.LogManager",
+                    "usr": "s:10LabCodeSDK10LogManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10LabCodeSDK10LogManagerC6sharedACvgZ",
+                "mangledName": "$s10LabCodeSDK10LogManagerC6sharedACvgZ",
+                "moduleName": "LabCodeSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "showLog",
+            "printedName": "showLog(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LabCodeSDK10LogManagerC04showD0yySSF",
+            "mangledName": "$s10LabCodeSDK10LogManagerC04showD0yySSF",
+            "moduleName": "LabCodeSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10LabCodeSDK10LogManagerC",
+        "mangledName": "$s10LabCodeSDK10LogManagerC",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DetectViewController",
+        "printedName": "DetectViewController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "LabCodeSDK.DetectViewControllerProtocol?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10LabCodeSDK20DetectViewControllerC8delegateAA0deF8Protocol_pSgvp",
+            "mangledName": "$s10LabCodeSDK20DetectViewControllerC8delegateAA0deF8Protocol_pSgvp",
+            "moduleName": "LabCodeSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "LabCodeSDK.DetectViewControllerProtocol?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DetectViewControllerProtocol",
+                        "printedName": "LabCodeSDK.DetectViewControllerProtocol",
+                        "usr": "c:@M@LabCodeSDK@objc(pl)DetectViewControllerProtocol"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10LabCodeSDK20DetectViewControllerC8delegateAA0deF8Protocol_pSgvg",
+                "mangledName": "$s10LabCodeSDK20DetectViewControllerC8delegateAA0deF8Protocol_pSgvg",
+                "moduleName": "LabCodeSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "LabCodeSDK.DetectViewControllerProtocol?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DetectViewControllerProtocol",
+                        "printedName": "LabCodeSDK.DetectViewControllerProtocol",
+                        "usr": "c:@M@LabCodeSDK@objc(pl)DetectViewControllerProtocol"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10LabCodeSDK20DetectViewControllerC8delegateAA0deF8Protocol_pSgvs",
+                "mangledName": "$s10LabCodeSDK20DetectViewControllerC8delegateAA0deF8Protocol_pSgvs",
+                "moduleName": "LabCodeSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10LabCodeSDK20DetectViewControllerC8delegateAA0deF8Protocol_pSgvM",
+                "mangledName": "$s10LabCodeSDK20DetectViewControllerC8delegateAA0deF8Protocol_pSgvM",
+                "moduleName": "LabCodeSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "status",
+            "printedName": "status",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10LabCodeSDK20DetectViewControllerC6statusSbvp",
+            "mangledName": "$s10LabCodeSDK20DetectViewControllerC6statusSbvp",
+            "moduleName": "LabCodeSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10LabCodeSDK20DetectViewControllerC6statusSbvg",
+                "mangledName": "$s10LabCodeSDK20DetectViewControllerC6statusSbvg",
+                "moduleName": "LabCodeSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10LabCodeSDK20DetectViewControllerC6statusSbvs",
+                "mangledName": "$s10LabCodeSDK20DetectViewControllerC6statusSbvs",
+                "moduleName": "LabCodeSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10LabCodeSDK20DetectViewControllerC6statusSbvM",
+                "mangledName": "$s10LabCodeSDK20DetectViewControllerC6statusSbvM",
+                "moduleName": "LabCodeSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "shouldAutorotate",
+            "printedName": "shouldAutorotate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@LabCodeSDK@objc(cs)DetectViewController(py)shouldAutorotate",
+            "mangledName": "$s10LabCodeSDK20DetectViewControllerC16shouldAutorotateSbvp",
+            "moduleName": "LabCodeSDK",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "shouldAutorotate",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@LabCodeSDK@objc(cs)DetectViewController(im)shouldAutorotate",
+                "mangledName": "$s10LabCodeSDK20DetectViewControllerC16shouldAutorotateSbvg",
+                "moduleName": "LabCodeSDK",
+                "overriding": true,
+                "isOpen": true,
+                "objc_name": "shouldAutorotate",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "supportedInterfaceOrientations",
+            "printedName": "supportedInterfaceOrientations",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIInterfaceOrientationMask",
+                "printedName": "UIKit.UIInterfaceOrientationMask",
+                "usr": "c:@E@UIInterfaceOrientationMask"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@LabCodeSDK@objc(cs)DetectViewController(py)supportedInterfaceOrientations",
+            "mangledName": "$s10LabCodeSDK20DetectViewControllerC30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVvp",
+            "moduleName": "LabCodeSDK",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "supportedInterfaceOrientations",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIInterfaceOrientationMask",
+                    "printedName": "UIKit.UIInterfaceOrientationMask",
+                    "usr": "c:@E@UIInterfaceOrientationMask"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@LabCodeSDK@objc(cs)DetectViewController(im)supportedInterfaceOrientations",
+                "mangledName": "$s10LabCodeSDK20DetectViewControllerC30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVvg",
+                "moduleName": "LabCodeSDK",
+                "overriding": true,
+                "isOpen": true,
+                "objc_name": "supportedInterfaceOrientations",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LabCodeSDK@objc(cs)DetectViewController(im)viewDidLoad",
+            "mangledName": "$s10LabCodeSDK20DetectViewControllerC11viewDidLoadyyF",
+            "moduleName": "LabCodeSDK",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewWillAppear",
+            "printedName": "viewWillAppear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LabCodeSDK@objc(cs)DetectViewController(im)viewWillAppear:",
+            "mangledName": "$s10LabCodeSDK20DetectViewControllerC14viewWillAppearyySbF",
+            "moduleName": "LabCodeSDK",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewWillAppear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidDisappear",
+            "printedName": "viewDidDisappear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LabCodeSDK@objc(cs)DetectViewController(im)viewDidDisappear:",
+            "mangledName": "$s10LabCodeSDK20DetectViewControllerC16viewDidDisappearyySbF",
+            "moduleName": "LabCodeSDK",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewDidDisappear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DetectViewController",
+                "printedName": "LabCodeSDK.DetectViewController",
+                "usr": "c:@M@LabCodeSDK@objc(cs)DetectViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@LabCodeSDK@objc(cs)DetectViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s10LabCodeSDK20DetectViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "LabCodeSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LabCodeSDK.DetectViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DetectViewController",
+                    "printedName": "LabCodeSDK.DetectViewController",
+                    "usr": "c:@M@LabCodeSDK@objc(cs)DetectViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@LabCodeSDK@objc(cs)DetectViewController(im)initWithCoder:",
+            "mangledName": "$s10LabCodeSDK20DetectViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "LabCodeSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "initFirstProperties",
+            "printedName": "initFirstProperties(torch:zoom:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ZoomLevel",
+                "printedName": "LabCodeSDK.ZoomLevel",
+                "usr": "s:10LabCodeSDK9ZoomLevelO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LabCodeSDK20DetectViewControllerC19initFirstProperties5torch4zoomySb_AA9ZoomLevelOtF",
+            "mangledName": "$s10LabCodeSDK20DetectViewControllerC19initFirstProperties5torch4zoomySb_AA9ZoomLevelOtF",
+            "moduleName": "LabCodeSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "activateLabTracking",
+            "printedName": "activateLabTracking(uniqueValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LabCodeSDK20DetectViewControllerC08activateA8Tracking11uniqueValueySSSg_tF",
+            "mangledName": "$s10LabCodeSDK20DetectViewControllerC08activateA8Tracking11uniqueValueySSSg_tF",
+            "moduleName": "LabCodeSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "applicationDidEnterBackground",
+            "printedName": "applicationDidEnterBackground()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@LabCodeSDK@objc(cs)DetectViewController(im)applicationDidEnterBackground",
+            "mangledName": "$s10LabCodeSDK20DetectViewControllerC29applicationDidEnterBackgroundyyF",
+            "moduleName": "LabCodeSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Dynamic",
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "applicationDidBecomeActive",
+            "printedName": "applicationDidBecomeActive()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@LabCodeSDK@objc(cs)DetectViewController(im)applicationDidBecomeActive",
+            "mangledName": "$s10LabCodeSDK20DetectViewControllerC26applicationDidBecomeActiveyyF",
+            "moduleName": "LabCodeSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Dynamic",
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startSession",
+            "printedName": "startSession()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LabCodeSDK20DetectViewControllerC12startSessionyyF",
+            "mangledName": "$s10LabCodeSDK20DetectViewControllerC12startSessionyyF",
+            "moduleName": "LabCodeSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopSession",
+            "printedName": "stopSession()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LabCodeSDK20DetectViewControllerC11stopSessionyyF",
+            "mangledName": "$s10LabCodeSDK20DetectViewControllerC11stopSessionyyF",
+            "moduleName": "LabCodeSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dectivateAutoSavingMode",
+            "printedName": "dectivateAutoSavingMode()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LabCodeSDK20DetectViewControllerC23dectivateAutoSavingModeyyF",
+            "mangledName": "$s10LabCodeSDK20DetectViewControllerC23dectivateAutoSavingModeyyF",
+            "moduleName": "LabCodeSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "activateSilentMode",
+            "printedName": "activateSilentMode()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LabCodeSDK20DetectViewControllerC18activateSilentModeyyF",
+            "mangledName": "$s10LabCodeSDK20DetectViewControllerC18activateSilentModeyyF",
+            "moduleName": "LabCodeSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "changeSound",
+            "printedName": "changeSound(fileName:fileType:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LabCodeSDK20DetectViewControllerC11changeSound8fileName0I4TypeySS_SStF",
+            "mangledName": "$s10LabCodeSDK20DetectViewControllerC11changeSound8fileName0I4TypeySS_SStF",
+            "moduleName": "LabCodeSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setSoundStatus",
+            "printedName": "setSoundStatus(value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LabCodeSDK20DetectViewControllerC14setSoundStatus5valueySb_tF",
+            "mangledName": "$s10LabCodeSDK20DetectViewControllerC14setSoundStatus5valueySb_tF",
+            "moduleName": "LabCodeSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setVibrationStatus",
+            "printedName": "setVibrationStatus(value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LabCodeSDK20DetectViewControllerC18setVibrationStatus5valueySb_tF",
+            "mangledName": "$s10LabCodeSDK20DetectViewControllerC18setVibrationStatus5valueySb_tF",
+            "moduleName": "LabCodeSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getSoundStatus",
+            "printedName": "getSoundStatus()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LabCodeSDK20DetectViewControllerC14getSoundStatusSbyF",
+            "mangledName": "$s10LabCodeSDK20DetectViewControllerC14getSoundStatusSbyF",
+            "moduleName": "LabCodeSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getVibrationStatus",
+            "printedName": "getVibrationStatus()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LabCodeSDK20DetectViewControllerC18getVibrationStatusSbyF",
+            "mangledName": "$s10LabCodeSDK20DetectViewControllerC18getVibrationStatusSbyF",
+            "moduleName": "LabCodeSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getCurrentTorchStatus",
+            "printedName": "getCurrentTorchStatus()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LabCodeSDK20DetectViewControllerC21getCurrentTorchStatusSbyF",
+            "mangledName": "$s10LabCodeSDK20DetectViewControllerC21getCurrentTorchStatusSbyF",
+            "moduleName": "LabCodeSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getCurrentZoomLevel",
+            "printedName": "getCurrentZoomLevel()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZoomLevel",
+                "printedName": "LabCodeSDK.ZoomLevel",
+                "usr": "s:10LabCodeSDK9ZoomLevelO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LabCodeSDK20DetectViewControllerC19getCurrentZoomLevelAA0iJ0OyF",
+            "mangledName": "$s10LabCodeSDK20DetectViewControllerC19getCurrentZoomLevelAA0iJ0OyF",
+            "moduleName": "LabCodeSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "playVibration",
+            "printedName": "playVibration()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LabCodeSDK20DetectViewControllerC13playVibrationyyF",
+            "mangledName": "$s10LabCodeSDK20DetectViewControllerC13playVibrationyyF",
+            "moduleName": "LabCodeSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "playSound",
+            "printedName": "playSound()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LabCodeSDK20DetectViewControllerC9playSoundyyF",
+            "mangledName": "$s10LabCodeSDK20DetectViewControllerC9playSoundyyF",
+            "moduleName": "LabCodeSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "controlTorch",
+            "printedName": "controlTorch(on:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LabCodeSDK20DetectViewControllerC12controlTorch2onySb_tF",
+            "mangledName": "$s10LabCodeSDK20DetectViewControllerC12controlTorch2onySb_tF",
+            "moduleName": "LabCodeSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "controlZoom",
+            "printedName": "controlZoom(level:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ZoomLevel",
+                "printedName": "LabCodeSDK.ZoomLevel",
+                "usr": "s:10LabCodeSDK9ZoomLevelO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LabCodeSDK20DetectViewControllerC11controlZoom5levelyAA0H5LevelO_tF",
+            "mangledName": "$s10LabCodeSDK20DetectViewControllerC11controlZoom5levelyAA0H5LevelO_tF",
+            "moduleName": "LabCodeSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@LabCodeSDK@objc(cs)DetectViewController",
+        "mangledName": "$s10LabCodeSDK20DetectViewControllerC",
+        "moduleName": "LabCodeSDK",
+        "isOpen": true,
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SystemConfiguration",
+        "printedName": "SystemConfiguration",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LabcurityManager",
+        "printedName": "LabcurityManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LabcurityManager",
+                "printedName": "LabCodeSDK.LabcurityManager",
+                "usr": "s:10LabCodeSDK16LabcurityManagerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10LabCodeSDK16LabcurityManagerC6sharedACvpZ",
+            "mangledName": "$s10LabCodeSDK16LabcurityManagerC6sharedACvpZ",
+            "moduleName": "LabCodeSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LabcurityManager",
+                    "printedName": "LabCodeSDK.LabcurityManager",
+                    "usr": "s:10LabCodeSDK16LabcurityManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10LabCodeSDK16LabcurityManagerC6sharedACvgZ",
+                "mangledName": "$s10LabCodeSDK16LabcurityManagerC6sharedACvgZ",
+                "moduleName": "LabCodeSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "findLabCodeLayer",
+            "printedName": "findLabCodeLayer(userId:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LabCodeSDK.ResultType) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ResultType",
+                    "printedName": "LabCodeSDK.ResultType",
+                    "usr": "s:10LabCodeSDK10ResultTypeO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LabCodeSDK16LabcurityManagerC04findaB5Layer6userId10completionySS_yAA10ResultTypeOctF",
+            "mangledName": "$s10LabCodeSDK16LabcurityManagerC04findaB5Layer6userId10completionySS_yAA10ResultTypeOctF",
+            "moduleName": "LabCodeSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getLabCodeLayer",
+            "printedName": "getLabCodeLayer(type:success:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LayerType",
+                "printedName": "LabCodeSDK.LayerType",
+                "usr": "s:10LabCodeSDK9LayerTypeO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UIKit.UIImage) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LabCodeSDK16LabcurityManagerC03getaB5Layer4type7successyAA0G4TypeO_ySo7UIImageCctF",
+            "mangledName": "$s10LabCodeSDK16LabcurityManagerC03getaB5Layer4type7successyAA0G4TypeO_ySo7UIImageCctF",
+            "moduleName": "LabCodeSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "applyLabCodeLayerToTarget",
+            "printedName": "applyLabCodeLayerToTarget(target:type:alpha:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "AnyObject"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LayerType",
+                "printedName": "LabCodeSDK.LayerType",
+                "usr": "s:10LabCodeSDK9LayerTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreGraphics.CGFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LabCodeSDK.ResultType) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ResultType",
+                    "printedName": "LabCodeSDK.ResultType",
+                    "usr": "s:10LabCodeSDK10ResultTypeO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LabCodeSDK16LabcurityManagerC05applyaB13LayerToTarget6target4type5alpha10completionyyXl_AA0G4TypeO14CoreFoundation7CGFloatVSgyAA06ResultN0OctF",
+            "mangledName": "$s10LabCodeSDK16LabcurityManagerC05applyaB13LayerToTarget6target4type5alpha10completionyyXl_AA0G4TypeO12CoreGraphics7CGFloatVSgyAA06ResultN0OctF",
+            "moduleName": "LabCodeSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10LabCodeSDK16LabcurityManagerC",
+        "mangledName": "$s10LabCodeSDK16LabcurityManagerC",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PhotosUI",
+        "printedName": "PhotosUI",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZoomLevel",
+        "printedName": "ZoomLevel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "NORMAL",
+            "printedName": "NORMAL",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LabCodeSDK.ZoomLevel.Type) -> LabCodeSDK.ZoomLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZoomLevel",
+                    "printedName": "LabCodeSDK.ZoomLevel",
+                    "usr": "s:10LabCodeSDK9ZoomLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LabCodeSDK.ZoomLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZoomLevel",
+                        "printedName": "LabCodeSDK.ZoomLevel",
+                        "usr": "s:10LabCodeSDK9ZoomLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10LabCodeSDK9ZoomLevelO6NORMALyA2CmF",
+            "mangledName": "$s10LabCodeSDK9ZoomLevelO6NORMALyA2CmF",
+            "moduleName": "LabCodeSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "HIGH",
+            "printedName": "HIGH",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LabCodeSDK.ZoomLevel.Type) -> LabCodeSDK.ZoomLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZoomLevel",
+                    "printedName": "LabCodeSDK.ZoomLevel",
+                    "usr": "s:10LabCodeSDK9ZoomLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LabCodeSDK.ZoomLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZoomLevel",
+                        "printedName": "LabCodeSDK.ZoomLevel",
+                        "usr": "s:10LabCodeSDK9ZoomLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10LabCodeSDK9ZoomLevelO4HIGHyA2CmF",
+            "mangledName": "$s10LabCodeSDK9ZoomLevelO4HIGHyA2CmF",
+            "moduleName": "LabCodeSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "VERYHIGH",
+            "printedName": "VERYHIGH",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LabCodeSDK.ZoomLevel.Type) -> LabCodeSDK.ZoomLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZoomLevel",
+                    "printedName": "LabCodeSDK.ZoomLevel",
+                    "usr": "s:10LabCodeSDK9ZoomLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LabCodeSDK.ZoomLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZoomLevel",
+                        "printedName": "LabCodeSDK.ZoomLevel",
+                        "usr": "s:10LabCodeSDK9ZoomLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10LabCodeSDK9ZoomLevelO8VERYHIGHyA2CmF",
+            "mangledName": "$s10LabCodeSDK9ZoomLevelO8VERYHIGHyA2CmF",
+            "moduleName": "LabCodeSDK"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LabCodeSDK.ZoomLevel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZoomLevel",
+                    "printedName": "LabCodeSDK.ZoomLevel",
+                    "usr": "s:10LabCodeSDK9ZoomLevelO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10LabCodeSDK9ZoomLevelO8rawValueACSg14CoreFoundation7CGFloatV_tcfc",
+            "mangledName": "$s10LabCodeSDK9ZoomLevelO8rawValueACSg12CoreGraphics7CGFloatV_tcfc",
+            "moduleName": "LabCodeSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10LabCodeSDK9ZoomLevelO8rawValue14CoreFoundation7CGFloatVvp",
+            "mangledName": "$s10LabCodeSDK9ZoomLevelO8rawValue12CoreGraphics7CGFloatVvp",
+            "moduleName": "LabCodeSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10LabCodeSDK9ZoomLevelO8rawValue14CoreFoundation7CGFloatVvg",
+                "mangledName": "$s10LabCodeSDK9ZoomLevelO8rawValue12CoreGraphics7CGFloatVvg",
+                "moduleName": "LabCodeSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:10LabCodeSDK9ZoomLevelO",
+        "mangledName": "$s10LabCodeSDK9ZoomLevelO",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "CGFloat",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ResultType",
+        "printedName": "ResultType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LabCodeSDK.ResultType.Type) -> LabCodeSDK.ResultType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ResultType",
+                    "printedName": "LabCodeSDK.ResultType",
+                    "usr": "s:10LabCodeSDK10ResultTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LabCodeSDK.ResultType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ResultType",
+                        "printedName": "LabCodeSDK.ResultType",
+                        "usr": "s:10LabCodeSDK10ResultTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10LabCodeSDK10ResultTypeO7successyA2CmF",
+            "mangledName": "$s10LabCodeSDK10ResultTypeO7successyA2CmF",
+            "moduleName": "LabCodeSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "failure",
+            "printedName": "failure",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LabCodeSDK.ResultType.Type) -> LabCodeSDK.ResultType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ResultType",
+                    "printedName": "LabCodeSDK.ResultType",
+                    "usr": "s:10LabCodeSDK10ResultTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LabCodeSDK.ResultType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ResultType",
+                        "printedName": "LabCodeSDK.ResultType",
+                        "usr": "s:10LabCodeSDK10ResultTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10LabCodeSDK10ResultTypeO7failureyA2CmF",
+            "mangledName": "$s10LabCodeSDK10ResultTypeO7failureyA2CmF",
+            "moduleName": "LabCodeSDK"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ResultType",
+                "printedName": "LabCodeSDK.ResultType",
+                "usr": "s:10LabCodeSDK10ResultTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ResultType",
+                "printedName": "LabCodeSDK.ResultType",
+                "usr": "s:10LabCodeSDK10ResultTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LabCodeSDK10ResultTypeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s10LabCodeSDK10ResultTypeO2eeoiySbAC_ACtFZ",
+            "moduleName": "LabCodeSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10LabCodeSDK10ResultTypeO9hashValueSivp",
+            "mangledName": "$s10LabCodeSDK10ResultTypeO9hashValueSivp",
+            "moduleName": "LabCodeSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10LabCodeSDK10ResultTypeO9hashValueSivg",
+                "mangledName": "$s10LabCodeSDK10ResultTypeO9hashValueSivg",
+                "moduleName": "LabCodeSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LabCodeSDK10ResultTypeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s10LabCodeSDK10ResultTypeO4hash4intoys6HasherVz_tF",
+            "moduleName": "LabCodeSDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:10LabCodeSDK10ResultTypeO",
+        "mangledName": "$s10LabCodeSDK10ResultTypeO",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LayerType",
+        "printedName": "LayerType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "webtoon",
+            "printedName": "webtoon",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LabCodeSDK.LayerType.Type) -> LabCodeSDK.LayerType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LayerType",
+                    "printedName": "LabCodeSDK.LayerType",
+                    "usr": "s:10LabCodeSDK9LayerTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LabCodeSDK.LayerType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LayerType",
+                        "printedName": "LabCodeSDK.LayerType",
+                        "usr": "s:10LabCodeSDK9LayerTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10LabCodeSDK9LayerTypeO7webtoonyA2CmF",
+            "mangledName": "$s10LabCodeSDK9LayerTypeO7webtoonyA2CmF",
+            "moduleName": "LabCodeSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "webnovel",
+            "printedName": "webnovel",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LabCodeSDK.LayerType.Type) -> LabCodeSDK.LayerType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LayerType",
+                    "printedName": "LabCodeSDK.LayerType",
+                    "usr": "s:10LabCodeSDK9LayerTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LabCodeSDK.LayerType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LayerType",
+                        "printedName": "LabCodeSDK.LayerType",
+                        "usr": "s:10LabCodeSDK9LayerTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10LabCodeSDK9LayerTypeO8webnovelyA2CmF",
+            "mangledName": "$s10LabCodeSDK9LayerTypeO8webnovelyA2CmF",
+            "moduleName": "LabCodeSDK"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LayerType",
+                "printedName": "LabCodeSDK.LayerType",
+                "usr": "s:10LabCodeSDK9LayerTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LayerType",
+                "printedName": "LabCodeSDK.LayerType",
+                "usr": "s:10LabCodeSDK9LayerTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LabCodeSDK9LayerTypeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s10LabCodeSDK9LayerTypeO2eeoiySbAC_ACtFZ",
+            "moduleName": "LabCodeSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10LabCodeSDK9LayerTypeO9hashValueSivp",
+            "mangledName": "$s10LabCodeSDK9LayerTypeO9hashValueSivp",
+            "moduleName": "LabCodeSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10LabCodeSDK9LayerTypeO9hashValueSivg",
+                "mangledName": "$s10LabCodeSDK9LayerTypeO9hashValueSivg",
+                "moduleName": "LabCodeSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LabCodeSDK9LayerTypeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s10LabCodeSDK9LayerTypeO4hash4intoys6HasherVz_tF",
+            "moduleName": "LabCodeSDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:10LabCodeSDK9LayerTypeO",
+        "mangledName": "$s10LabCodeSDK9LayerTypeO",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DetectViewControllerProtocol",
+        "printedName": "DetectViewControllerProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "abnormalExecution",
+            "printedName": "abnormalExecution(reason:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LabCodeSDK@objc(pl)DetectViewControllerProtocol(im)abnormalExecutionWithReason:",
+            "mangledName": "$s10LabCodeSDK28DetectViewControllerProtocolP17abnormalExecution6reasonySS_tF",
+            "moduleName": "LabCodeSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : LabCodeSDK.DetectViewControllerProtocol>",
+            "sugared_genericSig": "<Self where Self : LabCodeSDK.DetectViewControllerProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getDetectResult",
+            "printedName": "getDetectResult(data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LabCodeSDK@objc(pl)DetectViewControllerProtocol(im)getDetectResultWithData:",
+            "mangledName": "$s10LabCodeSDK28DetectViewControllerProtocolP03getD6Result4dataySDySSypG_tF",
+            "moduleName": "LabCodeSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : LabCodeSDK.DetectViewControllerProtocol>",
+            "sugared_genericSig": "<Self where Self : LabCodeSDK.DetectViewControllerProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@LabCodeSDK@objc(pl)DetectViewControllerProtocol",
+        "mangledName": "$s10LabCodeSDK28DetectViewControllerProtocolP",
+        "moduleName": "LabCodeSDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LabCodeSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIImage",
+        "printedName": "UIImage",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "fixedOrientation",
+            "printedName": "fixedOrientation(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So7UIImageC10LabCodeSDKE16fixedOrientation3forABSgAB_tFZ",
+            "mangledName": "$sSo7UIImageC10LabCodeSDKE16fixedOrientation3forABSgAB_tFZ",
+            "moduleName": "LabCodeSDK",
+            "static": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIImage",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIImage",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByImageLiteral",
+            "printedName": "_ExpressibleByImageLiteral",
+            "usr": "s:s26_ExpressibleByImageLiteralP",
+            "mangledName": "$ss26_ExpressibleByImageLiteralP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Core\/Processors\/Detect\/DetectResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11314,
+      "length": 2,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Core\/Processors\/Detect\/DetectResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11353,
+      "length": 2,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Core\/Processors\/Detect\/DetectResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11393,
+      "length": 2,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Core\/Processors\/Detect\/DetectResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11436,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Core\/Processors\/Detect\/DetectResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11477,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Core\/Processors\/Detect\/DetectResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11518,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Core\/Processors\/Detect\/DetectResult.swift",
+      "kind": "StringLiteral",
+      "offset": 11632,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Core\/Processors\/Detect\/DetectResult.swift",
+      "kind": "Dictionary",
+      "offset": 11687,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Core\/Processors\/Detect\/DetectResult.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11712,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Core\/Processors\/Detect\/Frame\/Config\/STCaptureSession.swift",
+      "kind": "StringLiteral",
+      "offset": 547,
+      "length": 18,
+      "value": "\"STCaptureSession\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Core\/Processors\/Detect\/Frame\/Config\/STCaptureSession.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3807,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Core\/Processors\/Detect\/Frame\/Config\/STCaptureSession.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4300,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/Login\/LoginManager.swift",
+      "kind": "StringLiteral",
+      "offset": 211,
+      "length": 14,
+      "value": "\"LoginManager\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/Network\/Request.swift",
+      "kind": "StringLiteral",
+      "offset": 534,
+      "length": 6,
+      "value": "\"none\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Core\/Processors\/Detect\/Frame\/RNScanView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 502,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Core\/Processors\/Detect\/Frame\/RNScanView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 569,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Core\/Processors\/Detect\/Frame\/RNScanView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 612,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Core\/Processors\/Detect\/Frame\/RNScanView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 652,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Core\/Processors\/Detect\/Frame\/RNScanView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 689,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Core\/Processors\/Detect\/Frame\/RNScanView.swift",
+      "kind": "StringLiteral",
+      "offset": 781,
+      "length": 6,
+      "value": "\"NONE\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Core\/Processors\/Detect\/Frame\/RNScanView.swift",
+      "kind": "StringLiteral",
+      "offset": 813,
+      "length": 12,
+      "value": "\"RNScanView\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Core\/Processors\/Detect\/Frame\/RNScanView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1019,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Core\/Processors\/Detect\/Frame\/RNScanView.swift",
+      "kind": "StringLiteral",
+      "offset": 3386,
+      "length": 6,
+      "value": "\"NONE\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/Network\/Parameters\/Common\/PackageNameParameter.swift",
+      "kind": "StringLiteral",
+      "offset": 222,
+      "length": 5,
+      "value": "\"iOS\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/Login\/Data\/LabCodeLoginData.swift",
+      "kind": "BooleanLiteral",
+      "offset": 304,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIImage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 296,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIImage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5003,
+      "length": 3,
+      "value": "512"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIImage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5016,
+      "length": 3,
+      "value": "512"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/Login\/Converter\/User.swift",
+      "kind": "IntegerLiteral",
+      "offset": 244,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Managers\/LogManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 207,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Managers\/LogManager.swift",
+      "kind": "StringLiteral",
+      "offset": 242,
+      "length": 10,
+      "value": "\"KI92WA17\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Core\/Processors\/Detect\/Frame\/DetectViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 667,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Core\/Processors\/Detect\/Frame\/DetectViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 707,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Core\/Processors\/Detect\/Frame\/DetectViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 798,
+      "length": 6,
+      "value": "\"NONE\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Core\/Processors\/Detect\/Frame\/DetectViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 827,
+      "length": 22,
+      "value": "\"DetectViewController\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Core\/Processors\/Detect\/Frame\/DetectViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1086,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Core\/Processors\/Detect\/Frame\/DetectViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 5506,
+      "length": 6,
+      "value": "\"NONE\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Core\/Processors\/Detect\/Frame\/Config\/STPreviewLayer.swift",
+      "kind": "FloatLiteral",
+      "offset": 308,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Core\/Processors\/Detect\/Frame\/Config\/STPreviewLayer.swift",
+      "kind": "FloatLiteral",
+      "offset": 376,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Core\/Processors\/Detect\/Frame\/Config\/STPreviewLayer.swift",
+      "kind": "StringLiteral",
+      "offset": 143,
+      "length": 14,
+      "value": "\"LabCodeSDK.STPreviewLayer\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Core\/Processors\/Detect\/Frame\/Config\/STPreviewLayer.swift",
+      "kind": "StringLiteral",
+      "offset": 143,
+      "length": 14,
+      "value": "\"LabCodeSDK.STPreviewLayer\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Core\/Processors\/Detect\/Frame\/Config\/STPreviewLayer.swift",
+      "kind": "StringLiteral",
+      "offset": 143,
+      "length": 14,
+      "value": "\"LabCodeSDK.STPreviewLayer\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Managers\/DeviceManager.swift",
+      "kind": "StringLiteral",
+      "offset": 209,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Managers\/DeviceManager.swift",
+      "kind": "StringLiteral",
+      "offset": 283,
+      "length": 16,
+      "value": "\"ServiceSaveKey\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/Labcurity\/LabcurityManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 447,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/Labcurity\/LabcurityManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 2521,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/Labcurity\/Converter\/Embed\/LayerEmbedder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 334,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/Labcurity\/Converter\/Embed\/LayerEmbedder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 359,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Core\/Processors\/Detect\/Frame\/STCameraViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 494,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Core\/Processors\/Detect\/Frame\/STCameraViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 537,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Core\/Processors\/Detect\/Frame\/STCameraViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 576,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Core\/Processors\/Detect\/Frame\/STCameraViewModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 610,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Core\/Processors\/Detect\/Frame\/STCameraViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 736,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Core\/Processors\/Detect\/Frame\/STCameraViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 773,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Core\/Processors\/Detect\/Frame\/STCameraViewModel.swift",
+      "kind": "StringLiteral",
+      "offset": 842,
+      "length": 19,
+      "value": "\"STCameraViewModel\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/ImagePicker.swift",
+      "kind": "StringLiteral",
+      "offset": 220,
+      "length": 11,
+      "value": "\"LabCodeSDK.ImagePicker\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 65,
+      "length": 19,
+      "value": "\"simulator\/sandbox\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 115,
+      "length": 8,
+      "value": "\"iPod 1\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 146,
+      "length": 8,
+      "value": "\"iPod 2\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 177,
+      "length": 8,
+      "value": "\"iPod 3\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 208,
+      "length": 8,
+      "value": "\"iPod 4\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 239,
+      "length": 8,
+      "value": "\"iPod 5\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 270,
+      "length": 8,
+      "value": "\"iPod 6\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 301,
+      "length": 8,
+      "value": "\"iPod 7\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 340,
+      "length": 8,
+      "value": "\"iPad 2\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 371,
+      "length": 8,
+      "value": "\"iPad 3\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 402,
+      "length": 8,
+      "value": "\"iPad 4\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 433,
+      "length": 11,
+      "value": "\"iPad Air \""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 467,
+      "length": 12,
+      "value": "\"iPad Air 2\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 502,
+      "length": 12,
+      "value": "\"iPad Air 3\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 537,
+      "length": 12,
+      "value": "\"iPad Air 4\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 572,
+      "length": 8,
+      "value": "\"iPad 5\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 615,
+      "length": 8,
+      "value": "\"iPad 6\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 658,
+      "length": 8,
+      "value": "\"iPad 7\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 701,
+      "length": 8,
+      "value": "\"iPad 8\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 744,
+      "length": 8,
+      "value": "\"iPad 9\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 800,
+      "length": 11,
+      "value": "\"iPad Mini\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 834,
+      "length": 13,
+      "value": "\"iPad Mini 2\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 870,
+      "length": 13,
+      "value": "\"iPad Mini 3\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 906,
+      "length": 13,
+      "value": "\"iPad Mini 4\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 942,
+      "length": 13,
+      "value": "\"iPad Mini 5\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 978,
+      "length": 13,
+      "value": "\"iPad Mini 6\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1026,
+      "length": 16,
+      "value": "\"iPad Pro 9.7\"\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1065,
+      "length": 17,
+      "value": "\"iPad Pro 10.5\"\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1105,
+      "length": 15,
+      "value": "\"iPad Pro 11\"\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1143,
+      "length": 23,
+      "value": "\"iPad Pro 11\" 2nd gen\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1189,
+      "length": 23,
+      "value": "\"iPad Pro 11\" 3rd gen\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1235,
+      "length": 17,
+      "value": "\"iPad Pro 12.9\"\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1275,
+      "length": 19,
+      "value": "\"iPad Pro 2 12.9\"\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1317,
+      "length": 19,
+      "value": "\"iPad Pro 3 12.9\"\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1359,
+      "length": 19,
+      "value": "\"iPad Pro 4 12.9\"\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1401,
+      "length": 19,
+      "value": "\"iPad Pro 5 12.9\"\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1453,
+      "length": 10,
+      "value": "\"iPhone 4\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1486,
+      "length": 11,
+      "value": "\"iPhone 4S\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1520,
+      "length": 10,
+      "value": "\"iPhone 5\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1553,
+      "length": 11,
+      "value": "\"iPhone 5S\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1587,
+      "length": 11,
+      "value": "\"iPhone 5C\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1621,
+      "length": 10,
+      "value": "\"iPhone 6\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1654,
+      "length": 15,
+      "value": "\"iPhone 6 Plus\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1692,
+      "length": 11,
+      "value": "\"iPhone 6S\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1726,
+      "length": 16,
+      "value": "\"iPhone 6S Plus\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1765,
+      "length": 11,
+      "value": "\"iPhone SE\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1799,
+      "length": 10,
+      "value": "\"iPhone 7\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1832,
+      "length": 15,
+      "value": "\"iPhone 7 Plus\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1870,
+      "length": 10,
+      "value": "\"iPhone 8\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1903,
+      "length": 15,
+      "value": "\"iPhone 8 Plus\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1941,
+      "length": 10,
+      "value": "\"iPhone X\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1974,
+      "length": 11,
+      "value": "\"iPhone XS\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2008,
+      "length": 15,
+      "value": "\"iPhone XS Max\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2046,
+      "length": 11,
+      "value": "\"iPhone XR\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2080,
+      "length": 11,
+      "value": "\"iPhone 11\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2114,
+      "length": 15,
+      "value": "\"iPhone 11 Pro\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2152,
+      "length": 19,
+      "value": "\"iPhone 11 Pro Max\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2194,
+      "length": 19,
+      "value": "\"iPhone SE 2nd gen\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2236,
+      "length": 16,
+      "value": "\"iPhone 12 Mini\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2275,
+      "length": 11,
+      "value": "\"iPhone 12\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2309,
+      "length": 15,
+      "value": "\"iPhone 12 Pro\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2347,
+      "length": 19,
+      "value": "\"iPhone 12 Pro Max\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2389,
+      "length": 16,
+      "value": "\"iPhone 13 Mini\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2428,
+      "length": 11,
+      "value": "\"iPhone 13\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2462,
+      "length": 15,
+      "value": "\"iPhone 13 Pro\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2500,
+      "length": 19,
+      "value": "\"iPhone 13 Pro Max\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2559,
+      "length": 18,
+      "value": "\"Apple Watch 1gen\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2601,
+      "length": 22,
+      "value": "\"Apple Watch Series 1\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2647,
+      "length": 22,
+      "value": "\"Apple Watch Series 2\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2693,
+      "length": 22,
+      "value": "\"Apple Watch Series 3\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2739,
+      "length": 22,
+      "value": "\"Apple Watch Series 4\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2785,
+      "length": 22,
+      "value": "\"Apple Watch Series 5\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2831,
+      "length": 29,
+      "value": "\"Apple Watch Special Edition\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2884,
+      "length": 22,
+      "value": "\"Apple Watch Series 6\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2930,
+      "length": 22,
+      "value": "\"Apple Watch Series 7\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2987,
+      "length": 15,
+      "value": "\"Apple TV 1gen\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 3025,
+      "length": 15,
+      "value": "\"Apple TV 2gen\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 3063,
+      "length": 15,
+      "value": "\"Apple TV 3gen\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 3101,
+      "length": 15,
+      "value": "\"Apple TV 4gen\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 3139,
+      "length": 13,
+      "value": "\"Apple TV 4K\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 3175,
+      "length": 18,
+      "value": "\"Apple TV 4K 2gen\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 3217,
+      "length": 16,
+      "value": "\"?unrecognized?\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 65,
+      "length": 19,
+      "value": "\"simulator\/sandbox\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 115,
+      "length": 8,
+      "value": "\"iPod 1\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 146,
+      "length": 8,
+      "value": "\"iPod 2\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 177,
+      "length": 8,
+      "value": "\"iPod 3\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 208,
+      "length": 8,
+      "value": "\"iPod 4\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 239,
+      "length": 8,
+      "value": "\"iPod 5\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 270,
+      "length": 8,
+      "value": "\"iPod 6\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 301,
+      "length": 8,
+      "value": "\"iPod 7\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 340,
+      "length": 8,
+      "value": "\"iPad 2\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 371,
+      "length": 8,
+      "value": "\"iPad 3\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 402,
+      "length": 8,
+      "value": "\"iPad 4\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 433,
+      "length": 11,
+      "value": "\"iPad Air \""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 467,
+      "length": 12,
+      "value": "\"iPad Air 2\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 502,
+      "length": 12,
+      "value": "\"iPad Air 3\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 537,
+      "length": 12,
+      "value": "\"iPad Air 4\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 572,
+      "length": 8,
+      "value": "\"iPad 5\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 615,
+      "length": 8,
+      "value": "\"iPad 6\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 658,
+      "length": 8,
+      "value": "\"iPad 7\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 701,
+      "length": 8,
+      "value": "\"iPad 8\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 744,
+      "length": 8,
+      "value": "\"iPad 9\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 800,
+      "length": 11,
+      "value": "\"iPad Mini\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 834,
+      "length": 13,
+      "value": "\"iPad Mini 2\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 870,
+      "length": 13,
+      "value": "\"iPad Mini 3\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 906,
+      "length": 13,
+      "value": "\"iPad Mini 4\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 942,
+      "length": 13,
+      "value": "\"iPad Mini 5\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 978,
+      "length": 13,
+      "value": "\"iPad Mini 6\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1026,
+      "length": 16,
+      "value": "\"iPad Pro 9.7\"\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1065,
+      "length": 17,
+      "value": "\"iPad Pro 10.5\"\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1105,
+      "length": 15,
+      "value": "\"iPad Pro 11\"\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1143,
+      "length": 23,
+      "value": "\"iPad Pro 11\" 2nd gen\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1189,
+      "length": 23,
+      "value": "\"iPad Pro 11\" 3rd gen\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1235,
+      "length": 17,
+      "value": "\"iPad Pro 12.9\"\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1275,
+      "length": 19,
+      "value": "\"iPad Pro 2 12.9\"\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1317,
+      "length": 19,
+      "value": "\"iPad Pro 3 12.9\"\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1359,
+      "length": 19,
+      "value": "\"iPad Pro 4 12.9\"\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1401,
+      "length": 19,
+      "value": "\"iPad Pro 5 12.9\"\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1453,
+      "length": 10,
+      "value": "\"iPhone 4\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1486,
+      "length": 11,
+      "value": "\"iPhone 4S\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1520,
+      "length": 10,
+      "value": "\"iPhone 5\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1553,
+      "length": 11,
+      "value": "\"iPhone 5S\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1587,
+      "length": 11,
+      "value": "\"iPhone 5C\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1621,
+      "length": 10,
+      "value": "\"iPhone 6\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1654,
+      "length": 15,
+      "value": "\"iPhone 6 Plus\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1692,
+      "length": 11,
+      "value": "\"iPhone 6S\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1726,
+      "length": 16,
+      "value": "\"iPhone 6S Plus\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1765,
+      "length": 11,
+      "value": "\"iPhone SE\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1799,
+      "length": 10,
+      "value": "\"iPhone 7\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1832,
+      "length": 15,
+      "value": "\"iPhone 7 Plus\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1870,
+      "length": 10,
+      "value": "\"iPhone 8\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1903,
+      "length": 15,
+      "value": "\"iPhone 8 Plus\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1941,
+      "length": 10,
+      "value": "\"iPhone X\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1974,
+      "length": 11,
+      "value": "\"iPhone XS\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2008,
+      "length": 15,
+      "value": "\"iPhone XS Max\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2046,
+      "length": 11,
+      "value": "\"iPhone XR\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2080,
+      "length": 11,
+      "value": "\"iPhone 11\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2114,
+      "length": 15,
+      "value": "\"iPhone 11 Pro\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2152,
+      "length": 19,
+      "value": "\"iPhone 11 Pro Max\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2194,
+      "length": 19,
+      "value": "\"iPhone SE 2nd gen\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2236,
+      "length": 16,
+      "value": "\"iPhone 12 Mini\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2275,
+      "length": 11,
+      "value": "\"iPhone 12\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2309,
+      "length": 15,
+      "value": "\"iPhone 12 Pro\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2347,
+      "length": 19,
+      "value": "\"iPhone 12 Pro Max\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2389,
+      "length": 16,
+      "value": "\"iPhone 13 Mini\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2428,
+      "length": 11,
+      "value": "\"iPhone 13\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2462,
+      "length": 15,
+      "value": "\"iPhone 13 Pro\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2500,
+      "length": 19,
+      "value": "\"iPhone 13 Pro Max\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2559,
+      "length": 18,
+      "value": "\"Apple Watch 1gen\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2601,
+      "length": 22,
+      "value": "\"Apple Watch Series 1\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2647,
+      "length": 22,
+      "value": "\"Apple Watch Series 2\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2693,
+      "length": 22,
+      "value": "\"Apple Watch Series 3\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2739,
+      "length": 22,
+      "value": "\"Apple Watch Series 4\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2785,
+      "length": 22,
+      "value": "\"Apple Watch Series 5\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2831,
+      "length": 29,
+      "value": "\"Apple Watch Special Edition\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2884,
+      "length": 22,
+      "value": "\"Apple Watch Series 6\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2930,
+      "length": 22,
+      "value": "\"Apple Watch Series 7\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2987,
+      "length": 15,
+      "value": "\"Apple TV 1gen\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 3025,
+      "length": 15,
+      "value": "\"Apple TV 2gen\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 3063,
+      "length": 15,
+      "value": "\"Apple TV 3gen\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 3101,
+      "length": 15,
+      "value": "\"Apple TV 4gen\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 3139,
+      "length": 13,
+      "value": "\"Apple TV 4K\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 3175,
+      "length": 18,
+      "value": "\"Apple TV 4K 2gen\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Utils\/Extensions\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 3217,
+      "length": 16,
+      "value": "\"?unrecognized?\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Core\/Processors\/Detect\/Frame\/Config\/STVideoDataOutput.swift",
+      "kind": "StringLiteral",
+      "offset": 358,
+      "length": 19,
+      "value": "\"STVideoDataOutput\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Core\/Processors\/Detect\/Frame\/Config\/STVideoDataOutput.swift",
+      "kind": "BooleanLiteral",
+      "offset": 455,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "FloatLiteral",
+      "offset": 151,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "FloatLiteral",
+      "offset": 171,
+      "length": 3,
+      "value": "1.5"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "FloatLiteral",
+      "offset": 195,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "FloatLiteral",
+      "offset": 151,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "FloatLiteral",
+      "offset": 171,
+      "length": 3,
+      "value": "1.5"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "FloatLiteral",
+      "offset": 195,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "FloatLiteral",
+      "offset": 151,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "FloatLiteral",
+      "offset": 171,
+      "length": 3,
+      "value": "1.5"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "FloatLiteral",
+      "offset": 195,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 380,
+      "length": 6,
+      "value": "\"ZOOM\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 404,
+      "length": 7,
+      "value": "\"TORCH\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 429,
+      "length": 7,
+      "value": "\"SOUND\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 458,
+      "length": 11,
+      "value": "\"VIBRATION\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 498,
+      "length": 18,
+      "value": "\"ISNOTFIRSTACCESS\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 540,
+      "length": 13,
+      "value": "\"ACCESSTOKEN\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 380,
+      "length": 6,
+      "value": "\"ZOOM\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 404,
+      "length": 7,
+      "value": "\"TORCH\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 429,
+      "length": 7,
+      "value": "\"SOUND\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 458,
+      "length": 11,
+      "value": "\"VIBRATION\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 498,
+      "length": 18,
+      "value": "\"ISNOTFIRSTACCESS\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 540,
+      "length": 13,
+      "value": "\"ACCESSTOKEN\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 630,
+      "length": 5,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 679,
+      "length": 3,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 630,
+      "length": 5,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 679,
+      "length": 3,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 630,
+      "length": 5,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 679,
+      "length": 3,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 1063,
+      "length": 26,
+      "value": "\"https:\/\/admin.labcode.kr\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 1113,
+      "length": 30,
+      "value": "\"https:\/\/dev.admin.labcode.kr\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 1163,
+      "length": 29,
+      "value": "\"https:\/\/admin.snaptag.co.kr\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 1216,
+      "length": 33,
+      "value": "\"https:\/\/dev.admin.snaptag.co.kr\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 1266,
+      "length": 31,
+      "value": "\"https:\/\/scan.admin.labcode.kr\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 1318,
+      "length": 35,
+      "value": "\"https:\/\/dev.scan.admin.labcode.kr\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 1375,
+      "length": 37,
+      "value": "\"http:\/\/admin.security.snaptag.co.kr\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 1438,
+      "length": 41,
+      "value": "\"http:\/\/dev.admin.security.snaptag.co.kr\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 1063,
+      "length": 26,
+      "value": "\"https:\/\/admin.labcode.kr\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 1113,
+      "length": 30,
+      "value": "\"https:\/\/dev.admin.labcode.kr\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 1163,
+      "length": 29,
+      "value": "\"https:\/\/admin.snaptag.co.kr\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 1216,
+      "length": 33,
+      "value": "\"https:\/\/dev.admin.snaptag.co.kr\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 1266,
+      "length": 31,
+      "value": "\"https:\/\/scan.admin.labcode.kr\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 1318,
+      "length": 35,
+      "value": "\"https:\/\/dev.scan.admin.labcode.kr\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 1375,
+      "length": 37,
+      "value": "\"http:\/\/admin.security.snaptag.co.kr\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 1438,
+      "length": 41,
+      "value": "\"http:\/\/dev.admin.security.snaptag.co.kr\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 1550,
+      "length": 28,
+      "value": "\"\/sdk\/v1\/products\/scan\/data\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 1550,
+      "length": 28,
+      "value": "\"\/sdk\/v1\/products\/scan\/data\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 1633,
+      "length": 24,
+      "value": "\"\/sdk\/v1\/customer\/login\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 1689,
+      "length": 30,
+      "value": "\"\/sdk\/v1\/authorization\/module\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 1742,
+      "length": 29,
+      "value": "\"\/sdk\/v1\/externalUsers\/check\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 1797,
+      "length": 25,
+      "value": "\"\/sdk\/v1\/products\/create\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 1848,
+      "length": 25,
+      "value": "\"\/sdk\/v1\/projects\/create\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 1897,
+      "length": 20,
+      "value": "\"\/sdk\/v1\/url\/create\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 1943,
+      "length": 29,
+      "value": "\"\/sdk\/v1\/products\/url\/update\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 1995,
+      "length": 30,
+      "value": "\"\/sdk\/v1\/externalUsers\/create\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 2057,
+      "length": 37,
+      "value": "\"\/sdk\/v1\/products\/packageName\/create\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 1633,
+      "length": 24,
+      "value": "\"\/sdk\/v1\/customer\/login\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 1689,
+      "length": 30,
+      "value": "\"\/sdk\/v1\/authorization\/module\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 1742,
+      "length": 29,
+      "value": "\"\/sdk\/v1\/externalUsers\/check\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 1797,
+      "length": 25,
+      "value": "\"\/sdk\/v1\/products\/create\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 1848,
+      "length": 25,
+      "value": "\"\/sdk\/v1\/projects\/create\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 1897,
+      "length": 20,
+      "value": "\"\/sdk\/v1\/url\/create\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 1943,
+      "length": 29,
+      "value": "\"\/sdk\/v1\/products\/url\/update\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 1995,
+      "length": 30,
+      "value": "\"\/sdk\/v1\/externalUsers\/create\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 2057,
+      "length": 37,
+      "value": "\"\/sdk\/v1\/products\/packageName\/create\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 2147,
+      "length": 21,
+      "value": "\"\/sdk\/v1\/teams\/login\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 2185,
+      "length": 23,
+      "value": "\"\/sdk\/v1\/products\/scan\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 2240,
+      "length": 39,
+      "value": "\"\/sdk\/v1\/products\/authorization\/module\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 2303,
+      "length": 29,
+      "value": "\"\/sdk\/v1\/products\/url\/create\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 2356,
+      "length": 28,
+      "value": "\"\/sdk\/v1\/products\/scan\/data\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 2416,
+      "length": 37,
+      "value": "\"\/sdk\/v1\/products\/packageName\/create\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 2147,
+      "length": 21,
+      "value": "\"\/sdk\/v1\/teams\/login\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 2185,
+      "length": 23,
+      "value": "\"\/sdk\/v1\/products\/scan\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 2240,
+      "length": 39,
+      "value": "\"\/sdk\/v1\/products\/authorization\/module\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 2303,
+      "length": 29,
+      "value": "\"\/sdk\/v1\/products\/url\/create\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 2356,
+      "length": 28,
+      "value": "\"\/sdk\/v1\/products\/scan\/data\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 2416,
+      "length": 37,
+      "value": "\"\/sdk\/v1\/products\/packageName\/create\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Constants.swift",
+      "kind": "FloatLiteral",
+      "offset": 144,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 185,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 223,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 261,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 299,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 339,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 380,
+      "length": 30,
+      "value": "\"com.snaptag.labcode-sdk-demo\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 451,
+      "length": 6,
+      "value": "\"beep\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 497,
+      "length": 5,
+      "value": "\"mp3\""
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Constants.swift",
+      "kind": "BooleanLiteral",
+      "offset": 537,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/minwoolee\/Documents\/repo\/ios-sdk\/SDK\/Integration SDK\/Swift\/최신\/v3.1.0\/LabCodeSDK\/SDK\/Config\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 593,
+      "length": 1,
+      "value": "0"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name LabCodeSDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+import Foundation
+@_exported import LabCodeSDK
+import PhotosUI
+import Security
+import Swift
+import SystemConfiguration
+import UIKit
+import _Concurrency
+import _StringProcessing
+@_hasMissingDesignatedInitializers public class LabCodeManager {
+  public static let shared: LabCodeSDK.LabCodeManager
+  @objc deinit
+}
+extension LabCodeSDK.LabCodeManager {
+  public func applyEmbeddingLabCode(uiImage: UIKit.UIImage, codeArray: Swift.Array<Swift.Int>, scale: Swift.Int32, alpha: Swift.Int32) -> UIKit.UIImage?
+  public func embedImage(inputImage: UIKit.UIImage, codeArray: Swift.Array<Swift.Int>, scale: Swift.Int32, alpha: Swift.Int32, seed: Swift.Int32) -> UIKit.UIImage?
+}
+@_hasMissingDesignatedInitializers public class LoginManager {
+  public static let shared: LabCodeSDK.LoginManager
+  @objc deinit
+}
+extension LabCodeSDK.LoginManager {
+  public func labcurity(apiKey: Swift.String, apiSecret: Swift.String, completion: @escaping (LabCodeSDK.ResultType) -> Swift.Void)
+  public func labcode(apiKey: Swift.String, apiSecret: Swift.String, completion: @escaping (LabCodeSDK.ResultType) -> Swift.Void)
+}
+extension UIKit.UIImage {
+  public static func fixedOrientation(for image: UIKit.UIImage) -> UIKit.UIImage?
+}
+@_hasMissingDesignatedInitializers public class LogManager {
+  public static let shared: LabCodeSDK.LogManager
+  public func showLog(_ code: Swift.String)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class DetectViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) weak open var delegate: LabCodeSDK.DetectViewControllerProtocol!
+  @_Concurrency.MainActor(unsafe) open var status: Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var shouldAutorotate: Swift.Bool {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension LabCodeSDK.DetectViewController {
+  @_Concurrency.MainActor(unsafe) public func initFirstProperties(torch: Swift.Bool, zoom: LabCodeSDK.ZoomLevel)
+  @_Concurrency.MainActor(unsafe) public func activateLabTracking(uniqueValue: Swift.String? = "NONE")
+  @objc @_Concurrency.MainActor(unsafe) dynamic open func applicationDidEnterBackground()
+  @objc @_Concurrency.MainActor(unsafe) dynamic open func applicationDidBecomeActive()
+}
+extension LabCodeSDK.DetectViewController {
+  @_Concurrency.MainActor(unsafe) public func startSession()
+  @_Concurrency.MainActor(unsafe) public func stopSession()
+  @_Concurrency.MainActor(unsafe) public func dectivateAutoSavingMode()
+  @_Concurrency.MainActor(unsafe) public func activateSilentMode()
+  @_Concurrency.MainActor(unsafe) public func changeSound(fileName: Swift.String, fileType: Swift.String)
+  @_Concurrency.MainActor(unsafe) public func setSoundStatus(value: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) public func setVibrationStatus(value: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) public func getSoundStatus() -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) public func getVibrationStatus() -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) public func getCurrentTorchStatus() -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) public func getCurrentZoomLevel() -> LabCodeSDK.ZoomLevel
+  @_Concurrency.MainActor(unsafe) public func playVibration()
+  @_Concurrency.MainActor(unsafe) public func playSound()
+  @_Concurrency.MainActor(unsafe) public func controlTorch(on: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) public func controlZoom(level: LabCodeSDK.ZoomLevel)
+}
+@_hasMissingDesignatedInitializers public class LabcurityManager {
+  public static let shared: LabCodeSDK.LabcurityManager
+  @objc deinit
+}
+extension LabCodeSDK.LabcurityManager {
+  public func findLabCodeLayer(userId: Swift.String, completion: @escaping (LabCodeSDK.ResultType) -> Swift.Void)
+  public func getLabCodeLayer(type: LabCodeSDK.LayerType, success: @escaping (UIKit.UIImage) -> Swift.Void)
+  public func applyLabCodeLayerToTarget(target: Swift.AnyObject, type: LabCodeSDK.LayerType, alpha: CoreFoundation.CGFloat? = 0.2, completion: @escaping (LabCodeSDK.ResultType) -> Swift.Void)
+}
+public enum ZoomLevel : CoreFoundation.CGFloat {
+  case NORMAL
+  case HIGH
+  case VERYHIGH
+  public init?(rawValue: CoreFoundation.CGFloat)
+  public typealias RawValue = CoreFoundation.CGFloat
+  public var rawValue: CoreFoundation.CGFloat {
+    get
+  }
+}
+public enum ResultType {
+  case success
+  case failure
+  public static func == (a: LabCodeSDK.ResultType, b: LabCodeSDK.ResultType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum LayerType {
+  case webtoon
+  case webnovel
+  public static func == (a: LabCodeSDK.LayerType, b: LabCodeSDK.LayerType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@objc public protocol DetectViewControllerProtocol {
+  @objc func abnormalExecution(reason: Swift.String)
+  @objc func getDetectResult(data: Swift.Dictionary<Swift.String, Any>)
+}
+extension LabCodeSDK.ZoomLevel : Swift.Equatable {}
+extension LabCodeSDK.ZoomLevel : Swift.Hashable {}
+extension LabCodeSDK.ZoomLevel : Swift.RawRepresentable {}
+extension LabCodeSDK.ResultType : Swift.Equatable {}
+extension LabCodeSDK.ResultType : Swift.Hashable {}
+extension LabCodeSDK.LayerType : Swift.Equatable {}
+extension LabCodeSDK.LayerType : Swift.Hashable {}

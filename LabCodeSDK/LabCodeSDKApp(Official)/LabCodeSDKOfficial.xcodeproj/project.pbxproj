@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2870125327CCCA66006B3E94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2870125227CCCA66006B3E94 /* AppDelegate.swift */; };
+		2870125527CCCA66006B3E94 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2870125427CCCA66006B3E94 /* SceneDelegate.swift */; };
+		2870125C27CCCA67006B3E94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2870125B27CCCA67006B3E94 /* Assets.xcassets */; };
+		2870125F27CCCA67006B3E94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2870125D27CCCA67006B3E94 /* LaunchScreen.storyboard */; };
+		2870127527CCCBED006B3E94 /* zoom_off_icon.svg in Resources */ = {isa = PBXBuildFile; fileRef = 2870126C27CCCBED006B3E94 /* zoom_off_icon.svg */; };
+		2870127627CCCBED006B3E94 /* torch_off_icon.svg in Resources */ = {isa = PBXBuildFile; fileRef = 2870126D27CCCBED006B3E94 /* torch_off_icon.svg */; };
+		2870127727CCCBED006B3E94 /* snaptag_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2870126E27CCCBED006B3E94 /* snaptag_logo.png */; };
+		2870127827CCCBED006B3E94 /* focus_on_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2870126F27CCCBED006B3E94 /* focus_on_icon.png */; };
+		2870127927CCCBED006B3E94 /* torch_on_icon.svg in Resources */ = {isa = PBXBuildFile; fileRef = 2870127027CCCBED006B3E94 /* torch_on_icon.svg */; };
+		2870127A27CCCBED006B3E94 /* more_before_button.svg in Resources */ = {isa = PBXBuildFile; fileRef = 2870127127CCCBED006B3E94 /* more_before_button.svg */; };
+		2870127B27CCCBED006B3E94 /* zoom_on_icon.svg in Resources */ = {isa = PBXBuildFile; fileRef = 2870127227CCCBED006B3E94 /* zoom_on_icon.svg */; };
+		2870127C27CCCBED006B3E94 /* beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2870127427CCCBED006B3E94 /* beep.mp3 */; };
+		2870128327CCCD0C006B3E94 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2870128227CCCD0C006B3E94 /* ResultViewController.swift */; };
+		2870128627CCCD61006B3E94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2870128427CCCD61006B3E94 /* Main.storyboard */; };
+		2870128827CCCE1E006B3E94 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2870128727CCCE1E006B3E94 /* ScanViewController.swift */; };
+		CE340B8C2944C6C700215333 /* LabCodeSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE340B8B2944C6C700215333 /* LabCodeSDK.xcframework */; };
+		CE340B8D2944C6C700215333 /* LabCodeSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CE340B8B2944C6C700215333 /* LabCodeSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CE340B8E2944C6C700215333 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CE340B8D2944C6C700215333 /* LabCodeSDK.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2870124F27CCCA66006B3E94 /* LabCodeSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LabCodeSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2870125227CCCA66006B3E94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2870125427CCCA66006B3E94 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2870125B27CCCA67006B3E94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2870125E27CCCA67006B3E94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2870126027CCCA67006B3E94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2870126C27CCCBED006B3E94 /* zoom_off_icon.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = zoom_off_icon.svg; sourceTree = "<group>"; };
+		2870126D27CCCBED006B3E94 /* torch_off_icon.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = torch_off_icon.svg; sourceTree = "<group>"; };
+		2870126E27CCCBED006B3E94 /* snaptag_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snaptag_logo.png; sourceTree = "<group>"; };
+		2870126F27CCCBED006B3E94 /* focus_on_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = focus_on_icon.png; sourceTree = "<group>"; };
+		2870127027CCCBED006B3E94 /* torch_on_icon.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = torch_on_icon.svg; sourceTree = "<group>"; };
+		2870127127CCCBED006B3E94 /* more_before_button.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = more_before_button.svg; sourceTree = "<group>"; };
+		2870127227CCCBED006B3E94 /* zoom_on_icon.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = zoom_on_icon.svg; sourceTree = "<group>"; };
+		2870127427CCCBED006B3E94 /* beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beep.mp3; sourceTree = "<group>"; };
+		2870128227CCCD0C006B3E94 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		2870128527CCCD61006B3E94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2870128727CCCE1E006B3E94 /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
+		CE340B8B2944C6C700215333 /* LabCodeSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = LabCodeSDK.xcframework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2870124C27CCCA66006B3E94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE340B8C2944C6C700215333 /* LabCodeSDK.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2870124627CCCA66006B3E94 = {
+			isa = PBXGroup;
+			children = (
+				2870125127CCCA66006B3E94 /* LabCodeSDKOffical */,
+				2870125027CCCA66006B3E94 /* Products */,
+				2870127D27CCCC7C006B3E94 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2870125027CCCA66006B3E94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2870124F27CCCA66006B3E94 /* LabCodeSDKDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2870125127CCCA66006B3E94 /* LabCodeSDKOffical */ = {
+			isa = PBXGroup;
+			children = (
+				2870126A27CCCBED006B3E94 /* Resources */,
+				2870125227CCCA66006B3E94 /* AppDelegate.swift */,
+				2870125427CCCA66006B3E94 /* SceneDelegate.swift */,
+				2870128227CCCD0C006B3E94 /* ResultViewController.swift */,
+				2870128727CCCE1E006B3E94 /* ScanViewController.swift */,
+				2870125B27CCCA67006B3E94 /* Assets.xcassets */,
+				2870128427CCCD61006B3E94 /* Main.storyboard */,
+				2870125D27CCCA67006B3E94 /* LaunchScreen.storyboard */,
+				2870126027CCCA67006B3E94 /* Info.plist */,
+			);
+			name = LabCodeSDKOffical;
+			path = LabCodeSDKOfficial;
+			sourceTree = "<group>";
+		};
+		2870126A27CCCBED006B3E94 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2870126B27CCCBED006B3E94 /* Images */,
+				2870127327CCCBED006B3E94 /* Sounds */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2870126B27CCCBED006B3E94 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2870126C27CCCBED006B3E94 /* zoom_off_icon.svg */,
+				2870126D27CCCBED006B3E94 /* torch_off_icon.svg */,
+				2870126E27CCCBED006B3E94 /* snaptag_logo.png */,
+				2870126F27CCCBED006B3E94 /* focus_on_icon.png */,
+				2870127027CCCBED006B3E94 /* torch_on_icon.svg */,
+				2870127127CCCBED006B3E94 /* more_before_button.svg */,
+				2870127227CCCBED006B3E94 /* zoom_on_icon.svg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		2870127327CCCBED006B3E94 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				2870127427CCCBED006B3E94 /* beep.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		2870127D27CCCC7C006B3E94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE340B8B2944C6C700215333 /* LabCodeSDK.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2870124E27CCCA66006B3E94 /* LabCodeSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2870126327CCCA67006B3E94 /* Build configuration list for PBXNativeTarget "LabCodeSDKDemo" */;
+			buildPhases = (
+				2870124B27CCCA66006B3E94 /* Sources */,
+				2870124C27CCCA66006B3E94 /* Frameworks */,
+				2870124D27CCCA66006B3E94 /* Resources */,
+				CE340B8E2944C6C700215333 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LabCodeSDKDemo;
+			productName = SnapTag_SDK_Sample;
+			productReference = 2870124F27CCCA66006B3E94 /* LabCodeSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2870124727CCCA66006B3E94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					2870124E27CCCA66006B3E94 = {
+						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
+					};
+				};
+			};
+			buildConfigurationList = 2870124A27CCCA66006B3E94 /* Build configuration list for PBXProject "LabCodeSDKOfficial" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2870124627CCCA66006B3E94;
+			productRefGroup = 2870125027CCCA66006B3E94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2870124E27CCCA66006B3E94 /* LabCodeSDKDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2870124D27CCCA66006B3E94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2870127A27CCCBED006B3E94 /* more_before_button.svg in Resources */,
+				2870125F27CCCA67006B3E94 /* LaunchScreen.storyboard in Resources */,
+				2870127C27CCCBED006B3E94 /* beep.mp3 in Resources */,
+				2870127927CCCBED006B3E94 /* torch_on_icon.svg in Resources */,
+				2870127627CCCBED006B3E94 /* torch_off_icon.svg in Resources */,
+				2870128627CCCD61006B3E94 /* Main.storyboard in Resources */,
+				2870125C27CCCA67006B3E94 /* Assets.xcassets in Resources */,
+				2870127527CCCBED006B3E94 /* zoom_off_icon.svg in Resources */,
+				2870127827CCCBED006B3E94 /* focus_on_icon.png in Resources */,
+				2870127727CCCBED006B3E94 /* snaptag_logo.png in Resources */,
+				2870127B27CCCBED006B3E94 /* zoom_on_icon.svg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2870124B27CCCA66006B3E94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2870125327CCCA66006B3E94 /* AppDelegate.swift in Sources */,
+				2870128827CCCE1E006B3E94 /* ScanViewController.swift in Sources */,
+				2870125527CCCA66006B3E94 /* SceneDelegate.swift in Sources */,
+				2870128327CCCD0C006B3E94 /* ResultViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2870125D27CCCA67006B3E94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2870125E27CCCA67006B3E94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2870128427CCCD61006B3E94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2870128527CCCD61006B3E94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2870126127CCCA67006B3E94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2870126227CCCA67006B3E94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2870126427CCCA67006B3E94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LabCodeSDKOfficial/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LabCodeSDKOfficial;
+				INFOPLIST_KEY_NSCameraUsageDescription = "스냅태그 SDK";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.snaptag.labcode-sdk-official";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2870126527CCCA67006B3E94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LabCodeSDKOfficial/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LabCodeSDKOfficial;
+				INFOPLIST_KEY_NSCameraUsageDescription = "스냅태그 SDK";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.snaptag.labcode-sdk-official";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2870124A27CCCA66006B3E94 /* Build configuration list for PBXProject "LabCodeSDKOfficial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2870126127CCCA67006B3E94 /* Debug */,
+				2870126227CCCA67006B3E94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2870126327CCCA67006B3E94 /* Build configuration list for PBXNativeTarget "LabCodeSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2870126427CCCA67006B3E94 /* Debug */,
+				2870126527CCCA67006B3E94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2870124727CCCA66006B3E94 /* Project object */;
+}
